@@ -1,0 +1,90 @@
+/* ProductTable.css */
+.product-table-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 300px;
+  }
+  
+  .product-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .product-table th,
+  .product-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .product-table th {
+    background: #f5f5f5;
+    font-weight: 600;
+  }
+  
+  .status {
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+  }
+  
+  .status.active {
+    background: #e6ffe6;
+    color: #006600;
+  }
+  
+  .status.inactive {
+    background: #ffe6e6;
+    color: #660000;
+  }
+  
+  .status.out-of-stock {
+    background: #fff3e6;
+    color: #663300;
+  }
+  
+  .action-btn {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+  .action-btn.edit {
+    background: #4CAF50;
+    color: white;
+  }
+  
+  .action-btn.toggle {
+    background: #2196F3;
+    color: white;
+  }
+  
+  .action-btn.delete {
+    background: #f44336;
+    color: white;
+  }
+  
+  .no-results {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+  }
